@@ -1,4 +1,4 @@
-1.- Sebastian Antonio Albornoz Bustamante 202273585-6 Par. 200
+1.- Sebastián Antonio Albornoz Bustamante 202273585-6 Par. 201
      Programador de:
       - test.cpp
          // Lectura de Archivo
