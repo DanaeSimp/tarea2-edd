@@ -5,8 +5,9 @@
 #include "DeBlock.cpp"  // Incluye la implementación del TDA DeBlock
 
 int main() {
+    //archivo de entrada
     std::ifstream inputFile("pruebas.txt");
-    if (!inputFile) {
+    if (!inputFile) {    //si no puede abrirlo retorna 1
         std::cerr << "No se pudo abrir el archivo de entrada." << std::endl;
         return 1;
     }
@@ -27,8 +28,8 @@ int main() {
     std::string line;
     std::getline(inputFile, line); // Leer línea en blanco después de q
     for (int i = 0; i < cant_op; i++) {
-        std::getline(inputFile, linea);
-        std::istringstream iss(linea);
+        std::getline(inputFile, line);
+        std::istringstream iss(line);
         std::string operation;
         iss >> operation;
         
